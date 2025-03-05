@@ -1,0 +1,17 @@
+{
+  "name": "food-delivery-app",
+  "version": "1.0.0",
+  "description": "Food Delivery Application",
+  "type": "module",
+  "scripts": {
+    "test-mobile": "node run-mobile-test.js",
+    "start-mobile": "cd mobile && npx expo start"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "expo-cli": "^6.3.10"
+  }
+}
